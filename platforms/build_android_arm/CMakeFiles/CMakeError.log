@@ -1,0 +1,316 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b4e8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8b4e8.dir/build.make CMakeFiles/cmTC_8b4e8.dir/build
+Building CXX object CMakeFiles/cmTC_8b4e8.dir/src.cxx.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_8b4e8.dir/src.cxx.o -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_8b4e8
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b4e8.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8b4e8.dir/src.cxx.o -o cmTC_8b4e8  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f083e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f083e.dir/build.make CMakeFiles/cmTC_f083e.dir/build
+Building CXX object CMakeFiles/cmTC_f083e.dir/src.cxx.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_f083e.dir/src.cxx.o -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_f083e
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f083e.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f083e.dir/src.cxx.o -o cmTC_f083e  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8d10/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d8d10.dir/build.make CMakeFiles/cmTC_d8d10.dir/build
+Building C object CMakeFiles/cmTC_d8d10.dir/src.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_d8d10.dir/src.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_d8d10
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8d10.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d8d10.dir/src.c.o -o cmTC_d8d10  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d185a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d185a.dir/build.make CMakeFiles/cmTC_d185a.dir/build
+Building C object CMakeFiles/cmTC_d185a.dir/src.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_d185a.dir/src.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_d185a
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d185a.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d185a.dir/src.c.o -o cmTC_d185a  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0ec5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d0ec5.dir/build.make CMakeFiles/cmTC_d0ec5.dir/build
+Building CXX object CMakeFiles/cmTC_d0ec5.dir/src.cxx.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_d0ec5.dir/src.cxx.o -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking CXX executable cmTC_d0ec5
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0ec5.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d0ec5.dir/src.cxx.o -o cmTC_d0ec5  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f10be/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f10be.dir/build.make CMakeFiles/cmTC_f10be.dir/build
+Building C object CMakeFiles/cmTC_f10be.dir/src.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_f10be.dir/src.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking C executable cmTC_f10be
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f10be.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f10be.dir/src.c.o -o cmTC_f10be  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23fe1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_23fe1.dir/build.make CMakeFiles/cmTC_23fe1.dir/build
+Building C object CMakeFiles/cmTC_23fe1.dir/src.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_23fe1.dir/src.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_23fe1
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23fe1.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack   -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_23fe1.dir/src.c.o -o cmTC_23fe1  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1819c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1819c.dir/build.make CMakeFiles/cmTC_1819c.dir/build
+Building C object CMakeFiles/cmTC_1819c.dir/TestEndianess.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1819c.dir/TestEndianess.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_1819c
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1819c.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_1819c.dir/TestEndianess.c.o -o cmTC_1819c  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78bfa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_78bfa.dir/build.make CMakeFiles/cmTC_78bfa.dir/build
+Building C object CMakeFiles/cmTC_78bfa.dir/CheckIncludeFile.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_78bfa.dir/CheckIncludeFile.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_78bfa.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_78bfa/fast] Error 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccde3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ccde3.dir/build.make CMakeFiles/cmTC_ccde3.dir/build
+Building C object CMakeFiles/cmTC_ccde3.dir/CheckFunctionExists.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ccde3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_ccde3
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccde3.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ccde3.dir/CheckFunctionExists.c.o -o cmTC_ccde3  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+CMakeFiles/cmTC_ccde3.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'jbg_newlen'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_ccde3] Error 1
+make: *** [cmTC_ccde3/fast] Error 2
+
+
+Determining if the include file search.h exists failed with the following output:
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e959d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e959d.dir/build.make CMakeFiles/cmTC_e959d.dir/build
+Building C object CMakeFiles/cmTC_e959d.dir/CheckIncludeFile.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e959d.dir/CheckIncludeFile.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: search.h: No such file or directory
+ #include <search.h>
+                    ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e959d.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_e959d/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4169/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4169.dir/build.make CMakeFiles/cmTC_d4169.dir/build
+Building C object CMakeFiles/cmTC_d4169.dir/src.c.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_d4169.dir/src.c.o   -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking C executable cmTC_d4169
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4169.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d4169.dir/src.c.o -o cmTC_d4169  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6176/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e6176.dir/build.make CMakeFiles/cmTC_e6176.dir/build
+Building CXX object CMakeFiles/cmTC_e6176.dir/src.cxx.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_e6176.dir/src.cxx.o -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking CXX executable cmTC_e6176
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6176.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e6176.dir/src.cxx.o -o cmTC_e6176  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"'
+Compilation failed:
+    source file: '/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3d35/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b3d35.dir/build.make CMakeFiles/cmTC_b3d35.dir/build
+Building CXX object CMakeFiles/cmTC_b3d35.dir/src.cxx.o
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee  -fvisibility-inlines-hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG -fPIE   -Wno-unused-const-variable -o CMakeFiles/cmTC_b3d35.dir/src.cxx.o -c /Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx
+/Users/allere/opencv-custom/platforms/build_android_arm/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"
+Linking CXX executable cmTC_b3d35
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d35.dir/link.txt --verbose=1
+/Users/allere/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -fpic -Wno-psabi --sysroot=/Users/allere/Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer -mfp16-format=ieee  -fvisibility-inlines-hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_b3d35.dir/src.cxx.o -o cmTC_b3d35  -L/libs/armeabi-v7a   "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/Users/allere/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+
+===== END =====
+
