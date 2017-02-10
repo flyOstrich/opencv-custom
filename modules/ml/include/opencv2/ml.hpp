@@ -53,6 +53,7 @@
 #include <float.h>
 #include <map>
 #include <iostream>
+#include <list>
 
 /**
   @defgroup ml Machine Learning
@@ -356,6 +357,7 @@ public:
     @param flags The optional flags, model-dependent. See cv::ml::StatModel::Flags.
      */
     CV_WRAP virtual float predict( InputArray samples, OutputArray results=noArray(), int flags=0 ) const = 0;
+
 
     /** @brief Create and train model with default parameters
 
@@ -1044,6 +1046,8 @@ public:
     /** @copybrief getPriors @see getPriors */
     CV_WRAP virtual void setPriors(const cv::Mat &val) = 0;
 
+
+
     /** @brief The class represents a decision tree node.
      */
     class CV_EXPORTS Node
@@ -1169,6 +1173,11 @@ public:
     Algorithm::load to load the pre-trained model.
      */
     CV_WRAP static Ptr<RTrees> create();
+
+
+    CV_WRAP virtual std::list<std::pair<int,float> > predict_prob( InputArray samples, OutputArray results=noArray(), int flags=0 ) const = 0;
+
+
 };
 
 /****************************************************************************************\

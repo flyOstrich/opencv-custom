@@ -57,6 +57,7 @@
 #include <string.h>
 #include <time.h>
 #include <vector>
+#include <list>
 
 /****************************************************************************************\
  *                               Main struct definitions                                  *
@@ -325,6 +326,10 @@ namespace ml
         virtual bool cutTree( int root, double T, int fold, double min_alpha );
         virtual float predictTrees( const Range& range, const Mat& sample, int flags ) const;
         virtual float predict( InputArray inputs, OutputArray outputs, int flags ) const;
+
+        virtual std::list<std::pair<int,float> > predictTrees_Prob( const Range& range, const Mat& sample, int flags ) const;
+        virtual std::list<std::pair<int,float> > predictProb( InputArray inputs, int flags ) const;
+
 
         virtual void writeTrainingParams( FileStorage& fs ) const;
         virtual void writeParams( FileStorage& fs ) const;

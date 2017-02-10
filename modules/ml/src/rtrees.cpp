@@ -356,8 +356,9 @@ public:
     vector<int> allVars, activeVars;
     RNG rng;
 };
-
-
+ bool compare_fn(const std::pair<int,float> first,const std::pair<int,float> second){
+        return first.second>second.second;
+ }
 class RTreesImpl : public RTrees
 {
 public:
@@ -392,6 +393,25 @@ public:
         return impl.predict(samples, results, flags);
     }
 
+    std::list<std::pair<int,float> >  predict_prob( InputArray samples, OutputArray results, int flags ) const
+    {
+
+        std::list<std::pair<int,float> > rt;
+        std::list<std::pair<int,float> > pRt=impl.predictProb(samples,flags);
+        pRt.sort(compare_fn);
+        int max_len=3;
+        int i=0;
+        while(!pRt.empty()&&i<max_len){
+            std::pair<int,float> item=pRt.front();
+            rt.push_back(item);
+            pRt.pop_front();
+            i++;
+        }
+       return rt;
+    }
+
+
+
     void write( FileStorage& fs ) const
     {
         impl.write(fs);
@@ -401,6 +421,8 @@ public:
     {
         impl.read(fn);
     }
+
+
 
     Mat getVarImportance() const { return Mat_<float>(impl.varImportance, true); }
     int getVarCount() const { return impl.getVarCount(); }
